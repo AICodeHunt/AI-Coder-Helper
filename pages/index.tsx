@@ -130,7 +130,7 @@ export default function Home() {
 	    <h3 className="mt-2 md:mt-5 text-xl text-center leading-2">{subtitle}</h3>
 	  </div>
       <div className="flex h-full flex items-center justify-center bg-[#0E1117] text-neutral-200 px-10">
-        <div className="mt-6 w-full flex-row items-center justify-center w-3/4">
+        <div className="mt-6 flex-row items-center justify-center w-3/4">
           <div className="mt-8 flex h-full flex-col justify-center">
             <CodeBlock code={outputCode} />
           </div>
@@ -214,10 +214,12 @@ export default function Home() {
 	  <div className="bg-[#0E1117] text-center text-white text-sm pt-10">
 	  	AI Coder Helper Copyright © <span className="text-blue-500">aicoderhelper.com</span>
 	  </div>
-	  <div className="bg-[#0E1117] pt-1 pb-1 text-center text-white text-sm">
-		<a href="https://aicodeconvert.com">AI Code Converter</a> ｜ 
-		<a href="https://ailandingpagegenerator.com">AI Landing Page Generator</a> | <a href="https://base64.kr">Base64.kr</a> | <a href="https://aicomicfactory.com">AI Comic Factory</a> 
-	  </div>
+	  {/*
+		<div className="bg-[#0E1117] pt-1 pb-1 text-center text-white text-sm">
+				<a href="https://aicodeconvert.com">AI Code Converter</a> ｜ 
+				<a href="https://ailandingpagegenerator.com">AI Landing Page Generator</a> | <a href="https://base64.kr">Base64.kr</a> | <a href="https://aicomicfactory.com">AI Comic Factory</a> 
+		</div>
+	  */}
     </>
   );
 }

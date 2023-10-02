@@ -215,6 +215,7 @@ export default function Home() {
 	  	AI Coder Helper Copyright © <span className="text-blue-500">aicoderhelper.com</span>
 	  </div>
 	  <div className="bg-[#0E1117] pt-1 pb-1 text-center text-white text-sm">
+		<a href="https://aicodeconvert.com">AI Code Converter</a> ｜ 
 		<a href="https://ailandingpagegenerator.com">AI Landing Page Generator</a> | <a href="https://base64.kr">Base64.kr</a> | <a href="https://aicomicfactory.com">AI Comic Factory</a> 
 	  </div>
     </>
